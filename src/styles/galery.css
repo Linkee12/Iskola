@@ -1,0 +1,115 @@
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+}
+.images{
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem;
+  height:min-content;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  background: transparent;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+}
+
+.imagesContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgb(24, 40, 77);
+    border-radius: 5px;
+    height:min-content;
+    align-items: center;
+    justify-content: center;
+    margin:5px;
+    overflow: hidden;
+    position: relative;
+}
+
+img{
+    width:10rem;
+    height:10rem;
+    margin: 5px;
+    border-radius:4px;
+}
+
+
+.imagesContainer img {
+    width: 10rem;
+    height: 10rem;
+
+}@media (min-width: 768px) { 
+.imagesContainer img:hover {
+    width: 10.5rem;
+    height: 10.5rem;
+    transition: 0.2s;
+}}
+@media (max-width: 768px) { 
+    .imagesContainer img {
+        width: 15rem;
+        height: 15rem; 
+    }
+}
+
+
+.label{
+    width:min-content;
+    font-weight: bold;
+}
+@media screen and (max-width: 900) {
+img:hover{
+    width: 100%;
+    height:100%;
+    transition-duration: 400ms;
+}}
+.upload{
+    border-radius: 0.5rem;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+   justify-content: center;
+   padding:0.5rem;
+    font-size:1rem;
+    font-weight: 700;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+}
+
+.fileUpload{
+    background-color: rgb(24, 40, 77);
+    margin:0.5rem;
+    border-radius: 0.3rem;
+    font-size: 2.5rem;
+    padding-left: 0.6rem;
+    padding-top: 0.2rem;
+
+}
+.fileUpload:hover{
+    background-color: rgb(36, 23, 121);
+}
+
+.fileExist{
+padding-bottom: 1.5rem;
+padding-left: 1rem;
+}
+.paragraph{
+    padding-top: 5px;
+    padding-left: 1rem;
+}

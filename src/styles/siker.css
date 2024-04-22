@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 15px 0 15px 0;
+    border-bottom: 2px solid #6362bb;
+    padding-bottom: 15px;
+    border-radius: 10px;
+  }
+  .container{
+    width: 60%;
+    margin: 100px auto;
+    border-radius: 15px;
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    background: transparent;
+    box-sizing: border-box;
+    font-family:  "Madimi One";
+    font-size: 16px;
+    border: 2px solid #6362bb;}
+    
+.error {
+        color: red; 
+ }
+ .success {
+    font-weight: bold; 
+    text-align: center; 
+    margin:auto;
+    padding:10px 15px 15px 8px;
+}
+img{
+    width:10rem;
+    height:10rem;
+    margin: 5px;
+    border-radius:4px;
+}
+
+@media screen and (min-width: 768px) { 
+    .container {
+        width: 48%;
+        transition: 0.2s;
+    }}
+  

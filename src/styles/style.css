@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    color: white;
+    background: url(../background.jpg) top center fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Madimi One";
+    line-height: 1.6;
+
+}
+img{
+    width:10rem;
+    height:10rem;
+    margin: 5px;
+    border-radius:4px;
+}
+
+
+#marka {
+    float: left;
+}
+
+.fejlec {
+    color: whitesmoke;
+    text-align: center;
+}
+.footer {
+    text-align: center;
+    color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+    color:whitesmoke;
+}
+div#csomag {
+    margin: auto;
+    text-align: center;
+}
+aside {
+    display: inline;
+    vertical-align: top;
+}
+nav {
+    margin: auto;
+    display: inline;
+}
+nav ul {
+    list-style-type: none;
+    font-size: xx-large;
+    display: inline;
+    
+}
+nav ul li {
+    padding: 0px 15px;
+    display: inline;
+}
+#content {
+    width: 100%;
+    border-radius: 10px;
+    padding-top: 70px;
+    font-size: medium;
+}
+#video{
+    float: inherit;
+}
+#terkep{
+    float: inherit;
+}

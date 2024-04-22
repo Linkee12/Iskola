@@ -1,0 +1,103 @@
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 15px 0 15px 0;
+    border-bottom: 2px solid #6362bb;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+
+.container {
+    width: 350px;
+    margin: 100px auto;
+    border-radius: 15px;
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    background: transparent;
+    box-sizing: border-box;
+    font-family: "Madimi One";
+    font-size: 16px;
+}
+img{
+    width:10rem;
+    height:10rem;
+    margin: 5px;
+    border-radius:4px;
+}
+
+
+form {
+    width:95%;
+    margin-right:25px;
+    text-align: left;
+    padding: 20px 0;
+
+}
+
+label {
+    width:95%;
+    
+    display: inline-block;
+    margin-left:30px;
+    padding-bottom:10px;
+     }
+
+input,
+textarea {
+    width: 96%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    margin-left:30px
+
+
+}
+
+input[type=submit] {
+    width: 90%;
+    padding: 10px 15px;
+    margin-top: 5px;
+    background-color: #6362bb;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 10px;
+    transition: all .3 ease;
+    margin-left:32px
+    
+    
+
+}
+
+input[type="submit"]:hover {
+    opacity: 0.80;
+
+}
+
+
+.col-75 {
+    float: center;
+    width: 95%;
+    margin-top: 6px;
+    
+    
+}
+
+@media screen and (max-width: 700px) {
+
+    .col-75
+     {
+        width: 90%;
+    }
+}@media screen and (max-width: 700px) {
+
+    
+    input[type=submit] {
+        width: 86%;
+    
+    }
+}
