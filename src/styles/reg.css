@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+
+}
+ .container2 {
+    display: flex;
+    justify-content: center}
+.regisztracio {
+  width: 350px;
+  margin: 100px auto;
+  border-radius: 15px;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+  background: transparent;
+  box-sizing: border-box;
+  font-family:  "Madimi One";
+  font-size: 16px;
+}
+img{
+  width:10rem;
+  height:10rem;
+  margin: 5px;
+  border-radius:4px;
+}
+
+.font {
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 15px 0 15px 0;
+  border-bottom: 2px solid #6362bb;
+  padding-bottom: 15px;
+  border-radius: 10px;
+}
+.regisztracio form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+}
+.regisztracio form label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+ height: 35px;
+ color: #050000;
+ background-color: #dee0e4 ;
+  border-radius: 60px;
+  margin-right: 5px;
+  
+}
+.regisztracio form input[type="password"], .regisztracio form input[type="text"], .regisztracio form input[type="email"] {
+  width: 315px;
+  height: 35px;
+  border: 1px solid #dee0e4;
+  margin-bottom: 20px;
+  padding: 0 15px;
+  border-bottom: 2px solid #6362bb;
+  border-top:2px solid #6362bb;
+  border-right: 2px solid #6362bb;
+  border-radius: 10px;
+  border-left: 2px solid #6362bb;
+}
+.regisztracio form input[type="submit"] {
+  width:83%;
+  padding: 10px 5px;
+  margin-left: 2px;
+  margin-bottom: 15px;
+  background-color: #6362bb;
+ border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  color: #ffffff;
+  border-radius: 10px;
+  
+}
+.regisztracio form input[type="submit"]:hover {
+  opacity: 0.80;
+
+}
+.regisztracio form .link{
+  font-size: .9em;
+  color: #9dabb6;
+  text-align:center;
+  font-weight: 500;
+}
+.regisztracio form .link p a {
+  color: #0f55ee;
+  font-weight: 600;
+}
+.regisztracio form .link p a:hover{
+  text-decoration: underline;
+}
+@media screen and (min-width: 740px) { 
+  .regisztracio {
+      width: 28%;
+      transition: 0.2s;
+  }}
+
